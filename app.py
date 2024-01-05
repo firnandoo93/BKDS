@@ -1,11 +1,9 @@
 import itertools
 import time
-import joblib
 import pickle
 import pandas as pd
 import numpy as np
 import streamlit as st
-from sklearn.preprocessing import MinMaxScaler
 from imblearn.over_sampling import SMOTE
 from sklearn.metrics import accuracy_score
 
@@ -79,7 +77,7 @@ df_final['target'] = y
 
 #--------------------------------------- Streamlit --------------------------------------
 st.set_page_config(
-    page_title = "Heartrish",
+    page_title = "Heartris",
     page_icon= ':heart:'
 )
 
