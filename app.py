@@ -78,7 +78,7 @@ df_final['target'] = y
 #--------------------------------------- Streamlit --------------------------------------
 st.set_page_config(
     page_title = "Heartris",
-    page_icon= ':heart:'
+    page_icon= ':heart_blue:'
 )
 
 st.title("Heart Disease Prediction")
